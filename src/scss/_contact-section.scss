@@ -1,0 +1,125 @@
+#contact-section {
+  background: $lightgrey;
+
+  .container {
+    padding: 80px 20px;
+
+    .contact-wrap {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      .contact-left {
+        p {
+          font-size: 0.9rem;
+          font-weight: 400;
+          color: #233656;
+        }
+      }
+
+      .contact-right {
+        .social-icon {
+          display: inline-block;
+
+          a {
+            text-decoration: none;
+
+            .fa-linkedin-in {
+              font-size: 1.7rem;
+              padding: 12px;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              margin-left: 0;
+              background: $darkblue;
+              color: $offwhite;
+              transition: all 200ms ease-in-out;
+
+              &:hover {
+                -webkit-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                -moz-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                color: #0077b5;
+                background: transparent;
+              }
+            }
+
+            .fa-twitter {
+              font-size: 1.7rem;
+              padding: 12px;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              margin-left: 10px;
+              background: $darkblue;
+              color: $offwhite;
+              transition: all 200ms ease-in-out;
+
+              &:hover {
+                -webkit-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                -moz-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                color: #1da1f2;
+                background: transparent;
+              }
+            }
+
+            .fa-github {
+              font-size: 1.7rem;
+              padding: 12px;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              margin-left: 10px;
+              background: $darkblue;
+              color: $offwhite;
+              transition: all 200ms ease-in-out;
+
+              &:hover {
+                -webkit-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                -moz-box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                box-shadow: 0px 3px 6px 2px rgba(143, 141, 143, 1);
+                color: #333333;
+                background: transparent;
+              }
+            }
+          }
+        }
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #021a24;
+        padding-bottom: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+    #contact-section {
+        .container {
+            padding: 40px 10px;
+
+            .contact-wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .contact-left {
+                    padding-bottom: 32px;
+                    p {
+                      font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

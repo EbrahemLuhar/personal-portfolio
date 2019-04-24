@@ -1,0 +1,448 @@
+#portfolio-section {
+  background: $lightgrey;
+  position: relative;
+  z-index: 3;
+
+  .container {
+    padding: 80px 20px;
+
+    .projects-wrap {
+      display: grid;
+      grid-template-columns: 360px 360px 360px;
+      grid-template-rows: 300px 300px;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 1080px;
+
+      .project {
+        .project-img1 {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-restaurant.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+              opacity: 1;
+              transform: translateY(0px);
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-img2 {
+          background: url("https://cdn.dribbble.com/users/2478499/screenshots/6334648/dribbble_shot_hd_6.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-furniture-store {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-furniture-store.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-restaurant-img {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-restaurant.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-architecture-img {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-architecture.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-fashion-email {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-fashion-email.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-travel-email {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-travel-email.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .project-portfolio {
+          background: url("https://raw.githubusercontent.com/EbrahemLuhar/portfolio-images/master/project-portfolio.png")
+            no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 100%;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+
+          &:hover {
+            .details {
+              opacity: 1;
+            }
+
+            .project-title {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .project-subtext {
+              transform: translateY(0px);
+              opacity: 1;
+            }
+
+            .links-wrap {
+                transform: translateY(0px);
+                opacity: 1;
+
+              .project-click {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .details {
+          background: #233656f5;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: $lightblue;
+          opacity: 0;
+          transition: all 250ms ease-in-out;
+
+          .project-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            transform: translateY(30px);
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .project-subtext {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            font-weight: 300;
+            color: $lightblue;
+            transform: translateY(30px);
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .line {
+            width: 70%;
+            height: 2px;
+            background: $lightblue;
+            margin: 20px 0;
+          }
+
+          .links-wrap {
+              opacity: 0;
+              transform: translateY(-30px);
+            .project-click {
+                text-decoration: none;
+                display: block;
+                margin-bottom: 10px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                padding: 10px 25px;
+                border: 2px solid $lightblue;
+                color: $lightblue;
+                transform: translateY(-30px);
+                opacity: 0;
+                transition: all 0.5s ease-in-out;
+
+                &:hover {
+                    border: 2px solid $lightgrey;
+                    color: $lightgrey;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  #portfolio-section {
+    .container {
+      .projects-wrap {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 250px;
+        text-align: center;
+        max-width: 900px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #portfolio-section {
+    .container {
+      .projects-wrap {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 250px 250px 250px;
+        text-align: center;
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #portfolio-section {
+    .container {
+      .projects-wrap {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px;
+        grid-gap: 15px 0;
+        text-align: center;
+        max-width: 300px
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #portfolio-section {
+    .container {
+      padding: 40px 10px;
+    }
+  }
+}

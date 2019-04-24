@@ -1,0 +1,75 @@
+header {
+    background: $blue;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+
+    .container {
+        padding: 0 20px;
+        animation: fadeInTop ease 1s forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
+
+        &::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .logo-wrap {
+            float: left;
+            width: 80px;
+
+            .logo-bg {
+                width: 80px;
+                height: 52px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                transition: 0.2s all ease-in-out;
+
+                &:hover {
+                    background: $greyblue;
+                }
+                
+                a {
+                    text-decoration: none;
+                    width: 80px;
+                    height: 52px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        nav {
+            float: right;
+            height: 52px;
+            display: flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 0.8rem;
+                margin-left: 5px;
+                padding: 15px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: $offwhite;
+                transition: 0.2s;
+
+                &:hover {
+                    color: $lightblue; 
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+}
