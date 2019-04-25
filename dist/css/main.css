@@ -91,7 +91,7 @@ header {
         font-family: 'Open Sans', sans-serif;
         font-size: 0.8rem;
         margin-left: 5px;
-        padding: 15px;
+        padding: 10px 15px;
         font-weight: 400;
         letter-spacing: 1px;
         color: #EEF4F2;
@@ -99,13 +99,19 @@ header {
         transition: 0.2s; }
         header .container nav a:hover {
           color: #86B8C1; }
+        header .container nav a.cv {
+          border: 1px solid #EEF4F2; }
+          header .container nav a.cv:hover {
+            color: #86B8C1;
+            border: 1px solid #86B8C1; }
 
 @media only screen and (max-width: 767px) {
   header {
     display: none; } }
 
 #top-section {
-  position: relative; }
+  position: relative;
+  height: calc(100vh - 25px); }
   #top-section .circle-outer {
     position: absolute;
     width: 800px;

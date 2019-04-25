@@ -54,7 +54,7 @@ header {
                 font-family: 'Open Sans', sans-serif;
                 font-size: 0.8rem;
                 margin-left: 5px;
-                padding: 15px;
+                padding: 10px 15px;
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: $offwhite;
@@ -62,6 +62,14 @@ header {
 
                 &:hover {
                     color: $lightblue; 
+                }
+
+                &.cv {
+                    border: 1px solid $offwhite;
+                    &:hover {
+                        color: $lightblue; 
+                        border: 1px solid $lightblue; 
+                    }
                 }
             }
         }
