@@ -30,6 +30,7 @@
           &:hover {
             .details {
               opacity: 1;
+              //filter: alpha(opacity=100); // IE hover fix
             }
 
             .project-title {
